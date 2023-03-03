@@ -51,7 +51,7 @@ In this assignment, we provide a `PublicTester.java` file that contains all the 
    </td>
   </tr>
   <tr>
-   <td><code>public ArrayList&lt;E> data</code>
+   <td><code>protected ArrayList&lt;E> data</code>
    </td>
    <td>The underlying data structure of MyMinHeap. <strong>You must use 0-based indexing to store the heap (the root of the tree at index 0).</strong>
    </td>
