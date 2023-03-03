@@ -187,10 +187,6 @@ public class PublicTester {
         assertEquals("Size of heap", 6, heap.size());
     }
 
-    // ===================== MyPriority Public Tests =====================
-    // Note: Many of these tests assume that your heap works correctly.
-    //
-
     /**
      * Test the MyMinHeap clear function
      */
@@ -202,6 +198,9 @@ public class PublicTester {
         assertEquals("Heap after clear() should be empty",
                 0, heap.data.size());
     }
+
+    // ===================== MyPriority Public Tests =====================
+    // Note: Many of these tests assume that your heap works correctly.
 
     /**
      * Test the MyPriorityQueue No-arg constructor
