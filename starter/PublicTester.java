@@ -199,7 +199,7 @@ public class PublicTester {
                 0, heap.data.size());
     }
 
-    // ===================== MyPriority Public Tests =====================
+    // ===================== MyPriorityQueue Public Tests =====================
     // Note: Many of these tests assume that your heap works correctly.
 
     /**
