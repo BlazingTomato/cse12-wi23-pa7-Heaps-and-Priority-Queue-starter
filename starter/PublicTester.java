@@ -19,7 +19,7 @@ import static org.junit.Assert.assertNotNull;
  */
 public class PublicTester {
     /**
-     * Helper method to initialize all instance variables of MyDeque
+     * Helper method to initialize all instance variables of MyMinHeap
      *
      * @param data the data array
      */
@@ -49,7 +49,7 @@ public class PublicTester {
      * Test the MyMinHeap default constructor without any input parameter
      */
     @Test
-    public void testMinHeapConstructorNon() {
+    public void testMinHeapConstructorNoArg() {
         MyMinHeap<Integer> heap = new MyMinHeap<>();
         assertEquals("Data ArrayList should be empty", 0, heap.data.size());
     }
@@ -206,7 +206,7 @@ public class PublicTester {
      * Test the MyPriorityQueue No-arg constructor
      */
     @Test
-    public void testPriorityQueueNonConstructor() {
+    public void testPriorityQueueNoArgConstructor() {
         MyMinHeap<Float> heap = new MyMinHeap<>();
         MyPriorityQueue<Float> pq = new MyPriorityQueue<>();
         assertNotNull("Priority queue's underlying heap is not null.",
