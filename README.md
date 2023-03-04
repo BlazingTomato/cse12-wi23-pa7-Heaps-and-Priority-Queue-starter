@@ -60,7 +60,6 @@ In this assignment, we provide a `PublicTester.java` file that contains all the 
 
 
 In this file, you may import the following:
-- `java.util.List`
 - `java.util.ArrayList`
 - `java.util.Collection`
 
