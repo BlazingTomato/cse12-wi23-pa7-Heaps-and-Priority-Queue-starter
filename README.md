@@ -51,7 +51,7 @@ In this assignment, we provide a `PublicTester.java` file that contains all the 
    </td>
   </tr>
   <tr>
-   <td><code>public ArrayList&lt;E> data</code>
+   <td><code>protected ArrayList&lt;E> data</code>
    </td>
    <td>The underlying data structure of MyMinHeap. <strong>You must use 0-based indexing to store the heap (the root of the tree at index 0).</strong>
    </td>
@@ -60,9 +60,10 @@ In this assignment, we provide a `PublicTester.java` file that contains all the 
 
 
 In this file, you may import the following:
-- `java.util.List`
 - `java.util.ArrayList`
 - `java.util.Collection`
+
+`MyMinHeap` should have a constraint on the generic parameter `E` such that `E` implements `Comparable<E>` so you can compare the elements. You should also implement `MyMinHeapInterface<E>`.
 
 Note: Do not add any other instance variables and do not add any static variables (other than `private static final` variables to be used as constants).
 
