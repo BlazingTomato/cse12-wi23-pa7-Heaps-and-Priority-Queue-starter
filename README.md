@@ -231,7 +231,7 @@ Note:
 
 <li>Then, either percolate this element down or percolate this element up as necessary until no heap properties are violated by this element (only one of these actions will be necessary to maintain the heap property, all fixes to the key order property should be by percolating the replacement element).
 
-<li>The <code>deleteIndex</code> explanation can be found in the <a href="https://github.com/CaoAssignments/cse12-wi23-pa7-Heaps-and-Priority-Queue/blob/main/README.md#appendix">Appendix</a>
+<li>The <code>deleteIndex</code> explanation can be found in the <a href="https://github.com/CaoAssignments/cse12-wi23-pa7-Heaps-and-Priority-Queue-starter/blob/main/README.md#appendix">Appendix</a>
 
 <li>You can assume that <code>index</code> will be within bounds.
 
@@ -262,7 +262,7 @@ Note:
     
 Throw a <code>NullPointerException</code> and do not add to the heap if <code>element</code> is <code>null</code>.
 <p>
-The insertion explanation can be found in the <a href="https://github.com/CaoAssignments/cse12-wi23-pa7-Heaps-and-Priority-Queue/blob/main/README.md#appendix">Appendix</a>
+The insertion explanation can be found in the <a href="https://github.com/CaoAssignments/cse12-wi23-pa7-Heaps-and-Priority-Queue-starter/blob/main/README.md#appendix">Appendix</a>
   </tr>
   <tr>
    <td><code>public E getMin()</code>
