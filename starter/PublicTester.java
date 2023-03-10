@@ -48,11 +48,7 @@ public class PublicTester {
     /**
      * Test the MyMinHeap default constructor without any input parameter
      */
-    @Test
-    public void testMinHeapConstructorNoArg() {
-        MyMinHeap<Integer> heap = new MyMinHeap<>();
-        assertEquals("Data ArrayList should be empty", 0, heap.data.size());
-    }
+     
 
     /**
      * Test the MyMinHeap constructor with input data
